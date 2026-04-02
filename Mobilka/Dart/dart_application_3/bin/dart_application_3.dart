@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 import 'dart:math';
+import 'package:characters/characters.dart';
 
 enum Mood {
   happy('\u{1F600}', 'радостный', 7),
@@ -59,7 +60,7 @@ void main() {
     print('\nАнализ строки "$emojis":');
     print('- 16-битных единиц: ${emojis.length}');
     print('- Кодовых точек: ${emojis.runes.length}');
-    print('- Реальных символов: ${emojis.runes.length}');
+    print('- Реальных символов: ${emojis.characters.length}');
 
     print('\nПодробный вывод юникода:');
     int i = 1;
