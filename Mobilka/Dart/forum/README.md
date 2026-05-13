@@ -41,7 +41,7 @@ forum/
 | **data/database** | Открытие SQLite, создание таблиц | Изоляция работы с БД |
 | **data/repositories** | CRUD-операции (RoleRepository, UserRepository, TopicRepository, MessageRepository) | Каждая сущность — отдельный репозиторий |
 | **cli/menu** | Главное меню, switch-case, вызов репозиториев | Только взаимодействие с пользователем |
-| **cli/input_helper** | askString, askPositiveInt, askPositiveDouble с повторным запросом и валидацией | Переиспользование ввода с валидацией |
+| **cli/input_helper** | askString, askDateTime с повторным запросом и валидацией | Переиспользование ввода с валидацией |
 | **bin/main** | Точка входа, создание экземпляра ForumDatabase и вызов runMenu() | Минимум кода, только запуск и закрытие ресурсов |
 
 ## Валидация (2 типа)
