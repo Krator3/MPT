@@ -1,0 +1,15 @@
+include: package:lints/recommended.yaml
+
+analyzer:
+  errors:
+    unused_import: warning
+    sort_constructors_first: ignore
+    directives_ordering: ignore
+    avoid_print: ignore
+
+linter:
+  rules:
+    prefer_single_quotes: false
+    sort_constructors_first: false
+    directives_ordering: false
+    avoid_print: false
