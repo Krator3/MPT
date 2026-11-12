@@ -1,1 +1,1 @@
-![тест программы](0e0f3c44-e9cb-461b-afc7-8ca9e876b386.png)
+![тест программы](https://github.com/Krator3/MPT/blob/main/Mobilka/Flutter/flutter_pr3/img/tests.png)
